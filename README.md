@@ -25,18 +25,12 @@ ollama serve
 2. Clone the repository and start the development server.
 
 ```bash
-git clone https://github.com/HelgeSverre/ollama-gui.git
+git clone https://github.com/lendome/ollama-gui.git
 cd ollama-gui
 yarn install
 yarn dev
 ```
 
-**Or use the hosted web version**, by running ollama with the following origin
-command [(docs)](https://github.com/jmorganca/ollama/blob/main/docs/faq.md#how-can-i-expose-the-ollama-server)
-
-```shell
-OLLAMA_ORIGINS=https://ollama-gui.vercel.app ollama serve
-```
 
 ---
 
